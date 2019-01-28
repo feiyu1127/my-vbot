@@ -1,0 +1,23 @@
+{
+    "name": "vbot/http",
+    "description": "Vbot Guzzle Http Client",
+    "keywords": [
+        "Vbot",
+        "Http"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JaQuan",
+            "email": "chinese.jk@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "hanson/vbot": "^2.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vbot\\Http\\": "src/"
+        }
+    }
+}

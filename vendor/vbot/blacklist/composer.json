@@ -1,0 +1,21 @@
+{
+  "name": "vbot/blacklist",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "HanSon",
+      "email": "h@hanc.cc"
+    }
+  ],
+  "require": {
+        "predis/predis": "^1.1"
+  },
+  "require-dev": {
+    "hanson/vbot": "^2.0.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vbot\\Blacklist\\": "src/"
+    }
+  }
+}

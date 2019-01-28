@@ -1,0 +1,29 @@
+{
+    "name": "vbot/hot-girl",
+    "description": "Vbot 扩展，抓取网络上的辣妹图",
+    "keywords": [
+        "Vbot",
+        "扩展",
+        "辣妹"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JaQuan",
+            "email": "chinese.jk@gmail.com"
+        }
+    ],
+    "require": {
+        "vbot/http":"~1.0",
+        "symfony/dom-crawler": "~3.0",
+        "symfony/css-selector": "~3.0"
+    },
+    "require-dev": {
+        "hanson/vbot": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vbot\\HotGirl\\": "src/"
+        }
+    }
+}

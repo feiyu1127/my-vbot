@@ -49,12 +49,12 @@ class MessageHandler
 
         // @todo
         if ($message['type'] === 'official') {
-            vbot('console')->log('收到公众号消息:'.$message['title'].$message['description'].
-                $message['app'].$message['url']);
+            vbot('console')->log('收到公众号消息:' . $message['title'] . $message['description'] .
+                $message['app'] . $message['url']);
         }
 
         if ($message['type'] === 'request_friend') {
-            vbot('console')->log('收到好友申请:'.$message['info']['Content'].$message['avatar']);
+            vbot('console')->log('收到好友申请:' . $message['info']['Content'] . $message['avatar']);
             if (in_array($message['info']['Content'], ['echo', 'print_r', 'var_dump', 'print'])) {
                 $friends->approve($message);
             }
